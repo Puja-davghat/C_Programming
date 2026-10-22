@@ -16,7 +16,34 @@
 
 void DisplayGrade(float fMarks)
 {
-    // Write your logic here
+    if(fMarks < 0 || fMarks > 100)
+    {
+        printf("Invalid Mark");
+    }
+    else if(fMarks < 40 )
+    {
+    printf("Fail");
+    }
+    else if (fMarks >= 40 && fMarks <= 59)
+   
+    {
+         printf("Gread D");
+
+    }
+    else if (fMarks >= 60 && fMarks <= 74)
+    {
+        printf("Gread C");
+    }
+    else if (fMarks <=75 && fMarks >= 89)
+    {
+        printf("Gread B");
+    
+    }
+    else
+    {
+       printf("Gread A");
+    }
+    
 }
 
 int main()
