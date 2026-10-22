@@ -7,10 +7,10 @@ void FindGreater(int iFirst, int iSecond)
    
     if(iFirst >iSecond)
     {
-        printf("%d Number is Greater\n",, iFirst);
+        printf("%d Number is Greater\n", iFirst);
     }else if (iFirst < iSecond)
     {
-         printf("%d Number is Greater\n",, iFirst);
+         printf("%d Number is Greater\n", iSecond);
     }
     else
     {
