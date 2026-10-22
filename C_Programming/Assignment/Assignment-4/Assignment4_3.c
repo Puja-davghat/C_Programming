@@ -1,4 +1,15 @@
-
+/*
+////////////////////////////////////////////////////////////
+//
+// Function Name : FindGreater
+// Description   : It is used to find the greater of two numbers
+// Input         : Integer, Integer
+// Output        : Void
+// Author        : Puja Anil Davghat
+// Date          : 22/10/2026
+//
+////////////////////////////////////////////////////////////
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

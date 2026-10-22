@@ -1,3 +1,15 @@
+/*
+////////////////////////////////////////////////////////////
+//
+// Function Name : CheckVotingEligibility
+// Description   : It is used to check voting eligibility based on age
+// Input         : Integer
+// Output        : Void
+// Author        : Puja Anil Davghat
+// Date          : 22/10/2026
+//
+////////////////////////////////////////////////////////////
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
