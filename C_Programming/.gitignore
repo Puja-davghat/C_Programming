@@ -1,0 +1,10 @@
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+
+# Editor and IDE directories
+.vscode/
+.idea/
+push_to_github.bat
