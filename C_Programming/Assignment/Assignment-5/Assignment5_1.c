@@ -20,7 +20,7 @@ void FindGreatest(int iFirst, int iSecond, int iThird)
     {
         printf("%d is Greatest",iFirst);
     } 
-    else if(iSecond >= iFirst && iSecond >= iThird)
+    else if(iSecond >= iFirst && iSecond >= iThird);
     {
         printf("%d is Greatest",iSecond);
     }
