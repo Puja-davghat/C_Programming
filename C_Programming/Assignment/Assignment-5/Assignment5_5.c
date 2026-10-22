@@ -16,6 +16,20 @@
 
 void CheckCharacterType(char cValue)
 {
+    if(cValue >= 'A' && cValue <= 'Z')
+    {
+        printf("Uppercase Alphabet");
+    }else if(cValue >= 'a' && cValue <= 'z')
+    {
+        printf("Lowercase Alphabet");
+    }else if(cValue >= '0' && cValue <= '1')
+    {
+        printf("Digit");
+    }
+    else
+    {
+        printf("Special Character");
+    }
     
 }
 
