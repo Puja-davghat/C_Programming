@@ -1,3 +1,14 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : EvenFactorial
+// Description   : Print the Even Factorial of Number
+// Input         : Integer Number: 5.
+// Output        : Even Factorial of Number is: 8
+// Author        : Puja Anil Davghat
+// Date          : 2/11/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 int EvenFactorial(int iNo)
 {

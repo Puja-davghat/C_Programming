@@ -1,3 +1,13 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Description   : Print the word of Entered Single DigitNumber.
+// Input         : Integer Number: 5.
+// Output        : Five.
+// Author        : Puja Anil Davghat
+// Date          : 2/11/2026
+// ////////////////////////////////////////////////////////////////
+
 #include <stdio.h>
 
 void Dispaly(int iNo)

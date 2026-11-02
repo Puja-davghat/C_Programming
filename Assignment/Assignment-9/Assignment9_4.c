@@ -1,3 +1,14 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : OddFactorial
+// Description   : Print the Odd Factorial of Number
+// Input         : Integer Number: 5.
+// Output        : Odd Factorial of Number is: 15
+// Author        : Puja Anil Davghat
+// Date          : 2/11/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 int OddFactorial(int iNo)
 {

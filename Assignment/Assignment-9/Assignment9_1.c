@@ -1,3 +1,14 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Description   : Print the Number of * and #.
+// Input         : Integer Number: 5.
+// Output        : *    *   *   *   *   #   #   #   #   #
+// Author        : Puja Anil Davghat
+// Date          : 2/11/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 void Display(int iNo)
 {

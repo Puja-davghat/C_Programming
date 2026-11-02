@@ -1,3 +1,14 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : TableRev
+// Description   : Print the Table of Given Number in Reverse Order.
+// Input         : Integer Number: 10.
+// Output        : Reverse Table of 10.
+// Author        : Puja Anil Davghat
+// Date          : 2/11/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
  void Table(int iNo)
  {

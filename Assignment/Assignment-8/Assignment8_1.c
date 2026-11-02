@@ -1,3 +1,14 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : Number
+// Description   : Print the number is small, medium, long.
+// Input         : Integer Number: 10
+// Output        : Small / Medium / Long
+// Author        : Puja Anil Davghat
+// Date          : 2/11/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 void Number(int iNo)
 {

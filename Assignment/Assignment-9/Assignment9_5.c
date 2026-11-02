@@ -1,3 +1,14 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : FactorialDiff
+// Description   : Print the Difference between Evan and Odd Factorial.
+// Input         : Integer Number: 5.
+// Output        : Factorial Difference is: -7
+// Author        : Puja Anil Davghat
+// Date          : 2/11/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 int FactorialDiff(int iNo)
 {

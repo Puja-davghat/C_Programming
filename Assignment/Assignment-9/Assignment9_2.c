@@ -1,3 +1,14 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : DollarToINR
+// Description   : Print the INR value of the given Dollar.
+// Input         : Integer Number: 10.
+// Output        : Value in INR is : 700
+// Author        : Puja Anil Davghat
+// Date          : 2/11/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 int DollarINR(int iNo)
 {

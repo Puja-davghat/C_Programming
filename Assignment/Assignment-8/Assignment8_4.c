@@ -1,3 +1,14 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : Table
+// Description   : Print the Table of Given Number.
+// Input         : Integer Number: 10.
+// Output        : Table of 10.
+// Author        : Puja Anil Davghat
+// Date          : 2/11/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
  void Table(int iNo)
  {
