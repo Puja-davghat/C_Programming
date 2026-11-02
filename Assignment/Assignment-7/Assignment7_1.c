@@ -1,0 +1,40 @@
+/*
+////////////////////////////////////////////////////////////
+//
+// Function Name : Pattern
+// Description   : accept number from user and print number of $ & *
+// Output        : Void
+// Author        : Puja Anil Davghat
+// Date          : 31/10/2026
+//
+////////////////////////////////////////////////////////////
+*/
+#include<stdio.h>
+#include<stdlib.h>
+void Pattern(int iNo)
+{
+    int iCnt = 0;
+
+    if(iNo < 0)
+    {
+        iNo = -iNo;
+    }
+
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
+    {
+        printf("$ ");
+        printf("* ");
+    }
+}
+
+int main()
+{
+    int iValue = 0;
+
+    printf("Enter number: ");
+    scanf("%d",&iValue);
+
+    Pattern(iValue);
+
+    return 0;
+}
