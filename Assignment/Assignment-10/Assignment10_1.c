@@ -21,7 +21,7 @@ double CircleArea(float fRadius)
 int main()
 {
     float fValue = 0.0f;
-    double dRet = 0;
+    double dRet = 0.0;
 
     printf("Enter Radius: ");
     scanf("%f", &fValue);
