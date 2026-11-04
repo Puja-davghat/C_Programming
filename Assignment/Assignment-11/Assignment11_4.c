@@ -17,10 +17,10 @@ int main()
     int iValue1 = 0, iValue2 =0;
     int iRet =0;
    printf("Enter Starting  Point :\n");
-   scanf("%d",iValue1);
+   scanf("%d",&iValue1);
 
    printf("Enter Ending   Point :\n");
-   scanf("%d",iValue2);
+   scanf("%d",&iValue2);
 
     iRet =  RangeSumEven(iValue1,iValue2);
    printf("Addition is :%d\n",iRet);

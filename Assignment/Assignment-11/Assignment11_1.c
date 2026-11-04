@@ -1,4 +1,13 @@
-
+////////////////////////////////////////////////////////////////
+//
+// Function Name : RangeDisplay
+// Description   : Display Range Between Starting & ending point
+// Input         : Enter Starting Point And Ending Point 10-15
+// Output        : Range is : 10 11 12 13 14 15
+// Author        : Puja Anil Davghat
+// Date          : 4/11/2026
+//
+// ////////////////////////////////////////////////////////////////
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,13 +15,17 @@ void RangeDisplay(int iStart, int iend)
 {
     int iCurretntValue = 0;
 
-    for (iCurretntValue = iStart;
-         iCurretntValue <= iend;
-         iCurretntValue++)
-    {
-        printf("%d\t", iCurretntValue);
+    for (iCurretntValue = iStart;  iCurretntValue <= iend;  iCurretntValue++)
+    {   
+        if(iStart >= iend)
+        {
+        printf("Invalid %d\n",iCurretntValue);
+        
+        }else
+        {
+            printf("%d\t", iCurretntValue);
+        }
     }
-
     printf("\n");
 }
 
