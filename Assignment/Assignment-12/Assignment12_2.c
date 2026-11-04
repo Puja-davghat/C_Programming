@@ -3,7 +3,7 @@
 //
 // Function Name : ChkZero
 // Description   : It checks whether a number contains zero
-// Input         : Integer
+// Input         : Bool
 // Output        : TRUE if number contains zero, otherwise FALSE
 // Author        : Davghat puja Anil
 // Date          : 04/11/2026
