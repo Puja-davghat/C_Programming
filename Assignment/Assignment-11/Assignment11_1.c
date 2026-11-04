@@ -12,20 +12,19 @@
 #include <stdlib.h>
 
 void RangeDisplay(int iStart, int iend)
-{
+{ 
     int iCurretntValue = 0;
+if(iStart > iend)
+    {
+        printf("Invalid Input.");
+    } 
+    for(iCurretntValue = iStart+1; iCurretntValue <= iend; iCurretntValue++)
+  {
+    
+        printf("%d\t", iCurretntValue);
+    
+  }
 
-    for (iCurretntValue = iStart;  iCurretntValue <= iend;  iCurretntValue++)
-    {   
-        if(iStart >= iend)
-        {
-        printf("Invalid %d\n",iCurretntValue);
-        
-        }else
-        {
-            printf("%d\t", iCurretntValue);
-        }
-    }
     printf("\n");
 }
 

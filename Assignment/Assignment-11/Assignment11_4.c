@@ -1,15 +1,35 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : RangeSumEven
+// Description   : Display Addition of the Given Even range numbers
+// Input         : Accept Starting and Ending Number
+// Output        : Display Even Number Addition
+// Author        : Davghat Puja Anil
+// Date          : 04/11/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<stdlib.h>
 
 int RangeSumEven(int iStart , int iend)
-{
-int iCurretntValue =0;
-  if((iCurretntValue>= iStart) && (iCurretntValue<=iend))
-  {
-printf("%d\t");
-  }
+{ 
+    int iCurretntValue = 0, iSum =0;
+    if(iStart > iend)
+    {
+        printf("Invalid Input.");
+    } 
 
-return iCurretntValue++;
+    for(iCurretntValue = iStart; iCurretntValue <= iend; iCurretntValue++)
+  {
+    if(iCurretntValue % 2 == 0)
+    {
+      iSum = iSum + iCurretntValue;
+        printf("%d\t", iCurretntValue);
+    }
+  }
+    printf("\n");
+    return iSum;
 }
 
 int main()

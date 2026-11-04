@@ -1,15 +1,34 @@
+// ////////////////////////////////////////////////////////////////
+//
+// Function Name : RangeSum
+// Description   : Display Addition of the Given range numbers
+// Input         : Accept Starting and Ending Number
+// Output        : Display Addition
+// Author        : Puja Anil Davghat
+// Date          : 04/11/2026
+//
+// ////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<stdlib.h>
 
 int RangeSum(int iStart , int iend)
-{
-int iCurretntValue =0;
-  if((iCurretntValue>= iStart) && (iCurretntValue<=iend))
+{ 
+    int iCurretntValue = 0  , iSum;
+    if(iStart > iend)
+    {
+        printf("Invalid Input.");
+    } 
+
+    for(iCurretntValue = iStart; iCurretntValue <= iend; iCurretntValue++)
   {
-printf("%d\t");
+    iSum = iSum + iCurretntValue;
+        printf("%d\t", iCurretntValue);
+    
   }
 
-return iCurretntValue++;
+    printf("\n");
+    return iSum-1;
 }
 
 int main()
