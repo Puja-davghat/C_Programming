@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////
 //
-// Function Name : CountFour
+// Function Name : Count
 // Description   : It Count Frequency of digit less than 6
 // Input         : Integer
 // Output        : return  count of digit less than 6
