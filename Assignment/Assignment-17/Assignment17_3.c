@@ -15,13 +15,13 @@
 
 #include<stdio.h>
 void Pattern(int iRows, int iCols)
-{ int i=0, j =0;
+{
+    int i=0, j =0;
     int iCnt=1;
     char ch = '\0' ;
 
   for(int i=1 ;i<=iRows;i++)
      {
-      
           ch ='a';
       for (int j =1; j <= iCols; j++)
         {

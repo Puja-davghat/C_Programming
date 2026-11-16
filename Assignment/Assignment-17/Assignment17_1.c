@@ -23,17 +23,16 @@ void Pattern(int iRows, int iCols)
         for (int j =1; j <= iCols; j++)
         {
             printf("%d\t",iCnt);
-           iCnt++;
-           if(iCnt>9)
+             iCnt++;
+             if(iCnt>9)
            {
                 iCnt =1;
-           }
+         }
           
         }
         printf("\n");
         
      }
-    
 }
  int main()
  {
