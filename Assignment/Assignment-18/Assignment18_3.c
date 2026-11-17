@@ -29,7 +29,7 @@ void Pattern(int iRow, int iCol)
 
       for(j = 1; j <= iCol ; j++)
       {
-        if(i == j)  //diagonal print $
+        if(i == j)  
         {
           printf("$\t"); 
         }

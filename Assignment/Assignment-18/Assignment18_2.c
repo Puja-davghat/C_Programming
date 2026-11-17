@@ -60,5 +60,5 @@ int main()
 
   Pattern (iValue1, iValue2);
 
-    return EXIT_SUCCESS;
+    return 0;
 }
