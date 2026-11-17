@@ -30,7 +30,6 @@ void Pattern(int iRow,int iCol)
   {
       for(j = 1; j <= iCol ; j++)
       {
-        
         if( i ==1 || i == iRow || j == 1 || j==iCol)  
         {
           printf("*\t"); 
