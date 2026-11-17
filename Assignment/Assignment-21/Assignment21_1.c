@@ -2,14 +2,14 @@
 //
 // Function Name : Pattern
 // Description   :display pattern accept Number of rows and Column 
-// Input         :  iRows =4 , iCol=4
-// Output        : *       *       *       #
+// Input         :  iRows =4 , iCol=3
+// Output        : *       *       *
 //
-//                 *       *       #       @
+//                 *       *       *
 //
-//                 *       #       @       @
-//
-//                 #       @       @       @
+//                 *       *       *
+//   
+//                 *       *       *
 //
 // Author        :  Davghat Puja Anil
 // Date          :  17 /11/2026
@@ -25,25 +25,15 @@ void Pattern(int iRow,int iCol)
   {
 
       for(j = 1; j <= iCol ; j++)
-      {
-        if( i ==1 || i == iRow || j == 1 || j==iCol)  
-        {
-          printf("*\t"); 
-        }
-        else  if((j+i) == (iRow+1)  )
-        {
-            printf("*\t");
-        }
-        else
-        {
-            printf("\t");
-        }
-          
+      {  
+        printf("*\t");
       }
-        printf("\n\n");
+          printf("\n\n");
+      }
+        
     }
 
-}
+
 int main()
 {
 int iValue1=0, iValue2=0;

@@ -20,7 +20,6 @@
 #include<stdio.h>
 
 void Pattern(int iRow,int iCol)
-
 {
     int i=0, j=0;
 for(i=1 ; i <= iRow; i++ )
