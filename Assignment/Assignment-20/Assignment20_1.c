@@ -26,13 +26,13 @@ for(i=1 ; i <= iRow; i++ )
     for(j=1 ; j<=iCol; j++)
     {
      if((j+i) == (iRow+1)  )
-            {
-                printf("#\t");
-            }
-            else 
-            {
-                printf("*\t");
-            }
+        {
+            printf("#\t");
+        }
+        else 
+        {
+            printf("*\t");
+        }
     } 
 printf("\n\n");
 }

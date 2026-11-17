@@ -39,7 +39,7 @@ for (i=1 ; i<= iRow ; i++)
             }
     }
     printf("\n\n");
-}
+ }
 }
 
 int main()

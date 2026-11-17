@@ -42,7 +42,7 @@ void Pattern(int iRow,int iCol)
         }
           
       }
-        printf("\n\n");
+         printf("\n");
     }
 
 }
