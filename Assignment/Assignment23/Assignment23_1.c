@@ -1,6 +1,6 @@
 // ////////////////////////////////////////////////////////////////
 //
-// Function Name : Pattern
+// Function Name :  Strlwrx
 // Description   :accept string from user and convert it into lower case. 
 // Input         :  Enter String :  PUja_Anil_DavgHAt
 // Output        :  Modified String is : puja_anil_davghat
