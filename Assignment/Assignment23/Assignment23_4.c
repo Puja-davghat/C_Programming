@@ -1,7 +1,7 @@
 // ////////////////////////////////////////////////////////////////
 //
 // Function Name : DisplayDigit
-// Description   : accept string from user and convert it into Upper case. 
+// Description   : accept string from user and Display all Digits.
 // Input         :  Enter String :   Puja12 Davghat2005
 // Output        :  Modified String is : 122005
 // Author        :  Davghat Puja Anil
