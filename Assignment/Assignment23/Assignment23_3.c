@@ -5,7 +5,7 @@
 // Input         :  Enter String :    Marvellouse Multi system
 // Output        :  Modified String is :  mARVELLOUSE@mULTI@SYSTEM
 // Author        :  Davghat Puja Anil
-// Date          :  18/11/2026
+// Date          :  19/11/2026
 //
 // ////////////////////////////////////////////////////////////////
 
@@ -26,6 +26,7 @@ else if((*str >= 'A') &&  (*str<='Z'))
 str++;
 }
 }
+
  int main()
 {
 char arr[20];
