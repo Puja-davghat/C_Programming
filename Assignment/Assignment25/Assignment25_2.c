@@ -1,6 +1,6 @@
 // ////////////////////////////////////////////////////////////////
 //
-// Function Name : ChkAlpha
+// Function Name : ChkCapital
 // Description   : accept character from user and Check it is Captial or not.
 // Input         :  Enter Character :
 //                                    P
