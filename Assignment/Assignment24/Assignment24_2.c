@@ -1,6 +1,6 @@
 // ////////////////////////////////////////////////////////////////
 //
-// Function Name : ChkChar
+// Function Name :  CountChar
 // Description   : accept string from user and accept one character and return the frequency of character 
 // Input         :  Enter String :   Puja Anil Davghat
 // Output        :  Enter Character : a
