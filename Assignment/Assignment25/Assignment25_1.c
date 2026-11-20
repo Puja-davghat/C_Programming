@@ -6,7 +6,7 @@
 //                                    A
 // Output        :  It is a Character.
 // Author        :  Davghat Puja Anil
-// Date          :  19/11/2026
+// Date          :  20/11/2026
 //
 // ////////////////////////////////////////////////////////////////
 #include <stdio.h>
@@ -43,11 +43,11 @@ int main()
 
     if (bRet == True)
     {
-        printf("It is a Character. \n");
+        printf("True \n It is a Character. \n");
     }
     else
     {
-        printf("It is not a Character .\n");
+        printf("False \n It is not a Character .\n");
     }
 
     return 0;
