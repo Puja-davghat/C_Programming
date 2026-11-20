@@ -1,6 +1,6 @@
 // ////////////////////////////////////////////////////////////////
 //
-// Function Name : FirstChar
+// Function Name : LastChar
 // Description   : accept string from user and accept one character and return the inxed of last occurance of that character. 
 // Input         :  Enter String :Puja Anil Davghat
 // Output        :  Enter Character :  a
@@ -12,7 +12,7 @@
 #include <stdio.h>
 int LastChar(char *str, char ch)
 {
-int iCount =0, iPos=0 ;
+    int iCount =0, iPos=0 ;
 
     while (str[iCount] != '\0')
     {
@@ -30,7 +30,7 @@ int main()
 {
     char arr[20];
     char cValue = '\0';
-  int iRet = 0;
+    int iRet = 0;
 
     printf("Enter String :\n");
     scanf("%[^\n]s", arr);
@@ -39,9 +39,7 @@ int main()
     scanf(" %c", &cValue);
 
     iRet = LastChar(arr, cValue);
-
-   
-        printf(" the Location of character is :%d\n",iRet);
+    printf(" the Location of character is :%d\n",iRet);
 
     return 0;
 }
