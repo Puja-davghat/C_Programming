@@ -1,10 +1,10 @@
 // ////////////////////////////////////////////////////////////////
 //
-// Function Name : ChkChar
-// Description   : accept string from user and accept one character and return the frequency of character 
+// Function Name : FirstChar
+// Description   : accept string from user and accept one character and return the Location of character 
 // Input         :  Enter String :   Puja Anil Davghat
-// Output        :  Enter Character : a
-//                                     Character of frequency is :3
+// Output        :  Enter Character :  v
+//                                    the Location of character is :12
 // Author        :  Davghat Puja Anil
 // Date          :  20/11/2026
 //
@@ -13,15 +13,16 @@
 int FirstChar(char *str, char ch)
 {
 int iCount =0;
-    while (*str != '\0')
+    while (str[iCount] != '\0')
     {
-        if (*str == 'a')
+        if (str[iCount] == ch)
         {
-           iCount++;
+            return iCount;
         }
-        str++;
+             iCount++;       
+
     }
-    return iCount;
+    return -1;
 }
 
 int main()
@@ -36,10 +37,10 @@ int main()
     printf("Enter Character :\n");
     scanf(" %c", &cValue);
 
-    iRet = CountChar(arr, cValue);
+    iRet = FirstChar(arr, cValue);
 
    
-        printf("Character of frequency is :%d\n",iRet);
+        printf(" the Location of character is :%d\n",iRet);
 
     return 0;
 }
