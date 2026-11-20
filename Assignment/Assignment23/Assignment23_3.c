@@ -3,7 +3,7 @@
 // Function Name : StrtoggleX
 // Description   : accept string from user and convert it into Upper case to lower and lower to upper.
 // Input         :  Enter String :    Marvellouse Multi system
-// Output        :  Modified String is :  mARVELLOUSE mULTI SYSTEM
+// Output        :  Modified String is :  mARVELLOUSE mULTISYSTEM
 // Author        :  Davghat Puja Anil
 // Date          :  19/11/2026
 //

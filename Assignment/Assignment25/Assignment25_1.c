@@ -2,14 +2,15 @@
 //
 // Function Name : ChkAlpha
 // Description   : accept character from user and Check it is Alphabet or not.
-// Input         :  Enter String :    Puja Anil Davghat
-// Output        :  Enter Character :  e
-//                                     Character is not Found
+// Input         :  Enter Character :
+//                                    A
+// Output        :  It is a Character.
 // Author        :  Davghat Puja Anil
 // Date          :  19/11/2026
 //
 // ////////////////////////////////////////////////////////////////
 #include <stdio.h>
+#include<stdbool.h>
 
 typedef int BOOL;
 
@@ -18,12 +19,16 @@ typedef int BOOL;
 
 BOOL ChkAlpha(char ch)
 {
-    while (ch= '\0')
+    if((ch >= 'a') && (ch <= 'z') || (ch >= 'A') && (ch <= 'Z') )
     {
-        if()
+        return True;
     }
-}
+    else 
+    {
+        return False;        
+    }
 
+}
 
 int main()
 {
@@ -32,7 +37,7 @@ int main()
     BOOL bRet = False;
 
     printf("Enter Character :\n");
-    scanf("%c",&cValue);
+    scanf(" %c", &cValue);
 
     bRet = ChkAlpha(cValue);
 
