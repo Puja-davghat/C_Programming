@@ -1,6 +1,6 @@
 // ////////////////////////////////////////////////////////////////
 //
-// Function Name : FirstChar
+// Function Name : StrRevX
 // Description   : accept string from user and reverse the string 
 // Input         :  Enter String :abcde
 // Output        :  Modified String is : edcba 
