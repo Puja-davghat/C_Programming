@@ -1,6 +1,6 @@
 // ////////////////////////////////////////////////////////////////
 //
-// Function Name : ChkChar
+// Function Name : ChkAlpha
 // Description   : accept character from user and Check it is Alphabet or not.
 // Input         :  Enter String :    Puja Anil Davghat
 // Output        :  Enter Character :  e
@@ -16,40 +16,33 @@ typedef int BOOL;
 #define True 1
 #define False 0
 
-BOOL ChkAlpha(char *str, char ch)
+BOOL ChkAlpha(char ch)
 {
-    while (*str != '\0')
+    while (ch= '\0')
     {
-        if (*str == ch)
-        {
-            return True;
-        }
-        str++;
+        if()
     }
-    return False;
 }
+
 
 int main()
 {
-    char arr[20];
+    
     char cValue = '\0';
     BOOL bRet = False;
 
-    printf("Enter String :\n");
-    scanf("%[^\n]s", arr);
-
     printf("Enter Character :\n");
-    scanf(" %c", &cValue);
+    scanf("%c",&cValue);
 
-    bRet = ChkChar(arr, cValue);
+    bRet = ChkAlpha(cValue);
 
     if (bRet == True)
     {
-        printf("Character is Found\n");
+        printf("It is a Character. \n");
     }
     else
     {
-        printf("Character is not Found\n");
+        printf("It is not a Character .\n");
     }
 
     return 0;
